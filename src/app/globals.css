@@ -16,7 +16,9 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+* {
+  font-family: "kanit", sans-serif !important;
+}
 .logo_text {
   font-family: "Rajdhani", sans-serif;
 }
@@ -26,6 +28,7 @@ a {
 }
 body {
   background-size: cover;
+  font-family: "kanit", sans-serif !important;
 }
 .block_title {
   font-size: 25px;
