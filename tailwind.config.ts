@@ -11,6 +11,9 @@ const config: Config = {
       gridTemplateColumns: {
         custom: "20px 1fr",
       },
+      fontFamily: {
+        kanit: ["Kanit", "sans-serif"],
+      },
       boxShadow: {
         "custom-black": "0 0 10px 2px rgba(0, 0, 0, 0.75)",
         "custom-black-medium": "0 0 3px 2px rgba(0, 0, 0, 0.4)",

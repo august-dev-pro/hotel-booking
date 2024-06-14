@@ -26,7 +26,6 @@ a {
 }
 body {
   background-size: cover;
-  font-family: "kanit", sans-serif !important;
 }
 .block_title {
   font-size: 25px;
@@ -47,7 +46,6 @@ body {
 }
 .footer_block .chield {
   display: flex;
-  align-items: center;
   justify-content: center;
   width: fit-content;
   gap: 10px;

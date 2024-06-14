@@ -98,7 +98,7 @@ const Footer = () => {
               </div>
               <div className="send_input w-fit flex gap-[2px] border-2 border-solid border-white rounded-[.5rem] h-fit pr-[10px] items-center">
                 <input
-                  className="border-none w-[175px] h-[35px]  pl-[5px] bg-transparent"
+                  className="border-none w-[250px] h-[35px]  pl-[5px] bg-transparent"
                   type="text"
                   name=""
                   id=""
