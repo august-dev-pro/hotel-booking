@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.logo_text {
+  font-family: "Rajdhani", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  background-size: cover;
+  font-family: "kanit", sans-serif !important;
+}
+.block_title {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.footer_block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer_block .block_content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer_block .chield {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 10px;
+}
+
+.footer_block .chield .value {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.footer_block .chield .label {
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.8px;
+}
+/* @layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+.top-header-section {
+  background: url("../imgs/Banner-bg.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.active-link {
+  color: #e4811e;
+  display: flex;
+  flex-direction: column;
+  background-color: #00000071;
+}
+.bg-marronFonce .active-link {
+  color: #ffffff;
+  background-color: transparent;
+}
+.bg-marronFonce .logo svg {
+  color: #ffffff;
+}
+.active-link::after {
+  content: "";
+  width: calc(100% - 10px);
+  padding: 1px 0;
+  background-color: #aa7137;
+  position: absolute;
+  bottom: 3px;
+}
+.bg-marronFonce .active-link::after {
+  content: "";
+  width: calc(100% - 10px);
+  padding: 1px 0;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 3px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.icon {
+  width: 18px;
+}
+
+.section {
+  padding: 70px 0;
+}
+
+.section .section_sub_title {
+  font-weight: 600;
+  font-size: 28px;
+  text-transform: capitalize;
+}
+.section .section_title {
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #d86c00;
+  font-size: 20px;
+}
+
+@media (max-width: 640px) {
+  .section .section_sub_title {
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+  .section .section_title {
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #d86c00;
+    font-size: 20px;
+  }
+  .section {
+    padding: 50px 0;
+  }
+}
